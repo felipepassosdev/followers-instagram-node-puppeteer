@@ -20,7 +20,7 @@ app.use(cors())
 // send data in JSOM format
 app.use(express.json())
 
-requireDir('./src/models/')
+// requireDir('./src/models/')
 
 // WILD CARD - Receive GET / POST / PUT / DELETE, Whatever
 app.use('/api', require('./src/routes'))
